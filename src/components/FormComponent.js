@@ -55,11 +55,11 @@ const FormComponent = () => {
   return (
     <div className="container p-5">
       <NavbarComponent />
-      <h1>เขียนบทความ</h1>
+      <h1>WRITE CONTENT</h1>
       {/* {JSON.stringify(state)} //debug value */}
       <form onSubmit={submitForm}>
         <div className="form-group">
-          <label>ชื่อบทความ</label>
+          <label>CONTENT</label>
           <input
             type="text"
             className="form-control"
@@ -69,7 +69,7 @@ const FormComponent = () => {
         </div>
         <br />
         <div className="form-group">
-          <label>รายละเอียด</label>
+          <label>DETAIL</label>
           <ReactQuill
             value={content}
             onChange={submitContent}
@@ -81,7 +81,7 @@ const FormComponent = () => {
         </div>
         <br />
         <div className="form-group">
-          <label>ชื่อผู้เขียน</label>
+          <label>AUTHOR NAME</label>
           <input
             type="text"
             className="form-control"

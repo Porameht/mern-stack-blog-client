@@ -34,10 +34,10 @@ const LoginComponent = (props) => {
   return (
     <div className="container p-5">
       <NavbarComponent />
-      <h1>เข้าสู่ระบบ | Admin</h1>
+      <h1>LOGIN | Admin</h1>
       <form onSubmit={submitForm}>
         <div className="form-group">
-          <label>Username</label>
+          <label>USERNAME</label>
           <input
             type="text"
             className="form-control"
@@ -47,7 +47,7 @@ const LoginComponent = (props) => {
         </div>
         <br />
         <div className="form-group">
-          <label>Password</label>
+          <label>PASSWORD</label>
           <input
             type="password"
             className="form-control"

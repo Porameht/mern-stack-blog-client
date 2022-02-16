@@ -22,7 +22,7 @@ const SingleComponent = (props) => {
           <h1>{blog.title}</h1>
           <div className="pt-3">{renderHTML(blog.content)}</div>
           <p className="text-muted">
-            ผู้เขียน: {blog.author}, เผยแพร่:{" "}
+            AUTHOR: {blog.author}, PUBLISH:{" "}
             {new Date(blog.createdAt).toLocaleString()}
           </p>
         </div>

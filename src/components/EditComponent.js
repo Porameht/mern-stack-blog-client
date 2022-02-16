@@ -37,7 +37,7 @@ const EditComponent = (props) => {
   const showUpdateForm = () => (
     <form onSubmit={submitForm}>
       <div className="form-group">
-        <label>ชื่อบทความ</label>
+        <label>CREATE CONTENT</label>
         <input
           type="text"
           className="form-control"
@@ -55,7 +55,7 @@ const EditComponent = (props) => {
       />
       <br />
       <div className="form-group">
-        <label>ชื่อผู้เขียน</label>
+        <label>AUTHOR NAME</label>
         <textarea
           className="form-control"
           value={author}
@@ -105,7 +105,7 @@ const EditComponent = (props) => {
   return (
     <div className="container p-5">
       <NavbarComponent />
-      <h1>แก้ไขบทความ</h1>
+      <h1>EDIT CONTENT</h1>
       {/* {JSON.stringify(state)} */}
       {showUpdateForm()}
     </div>

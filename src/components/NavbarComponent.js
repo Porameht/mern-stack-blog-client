@@ -6,20 +6,20 @@ const NavbarComponent = ({ history }) => {
       <ul className="nav nav-tabs">
         <li className="nav-item pr-3 pt-3 pb-3">
           <Link to="/" className="nav-link">
-            หน้าแรก
+            HOME
           </Link>
         </li>
         {!getUser() && (
           <li className="nav-item pr-3 pt-3 pb-3">
             <Link to="/login" className="nav-link">
-              เข้าสู่ระบบ
+              LOGIN
             </Link>
           </li>
         )}
         {getUser() && (
           <li className="nav-item pr-3 pt-3 pb-3">
             <Link to="/create" className="nav-link">
-              เขียนบทความ
+              CREATE CONTENT
             </Link>
           </li>
         )}
@@ -29,7 +29,7 @@ const NavbarComponent = ({ history }) => {
               className="nav-link"
               onClick={() => logout(() => history.push("/"))}
             >
-              ออกจากระบบ
+              LOGOUT
             </button>
           </li>
         )}
