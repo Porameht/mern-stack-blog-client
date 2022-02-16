@@ -65,7 +65,7 @@ function App() {
               {renderHTML(blog.content.substring(0, 250))}
             </div>
             <p className="text-muted">
-              ผู้เขียน: {blog.author}, เผยแพร่:{" "}
+              AUTHOR: {blog.author}, PUBLISH:{" "}
               {new Date(blog.createdAt).toLocaleString()}
             </p>
             {getUser() && (
@@ -74,14 +74,14 @@ function App() {
                   className="btn btn-outline-success"
                   to={`/blog/edit/${blog.slug}`}
                 >
-                  แก้ไขบทความ
+                  EDIT CONTENE
                 </Link>{" "}
                 &nbsp;
                 <button
                   className="btn btn-outline-danger"
                   onClick={() => confirmDelete(blog.slug)}
                 >
-                  ลบบทความ
+                  DELETE
                 </button>
               </div>
             )}
