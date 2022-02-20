@@ -1,3 +1,46 @@
+The first project of mechanical engineer by MERN Stack
+MERN Stack is Framework for Web Development by using JavaScript language
+
+M : MongoDB
+
+E : Express.js
+
+R : ReactJS
+
+N : Node.js
+
+
+
+Detail
+
+Client Side (Front-end)
+
+ReactJS
+
+It's JavaScript Library For manage user or client and create template
+
+Server Side (Back-end)
+
+Express
+
+It's Framework of Node.js for apply to system Routing, Middleware, Request-Response Manage
+
+Node.js
+
+It's Framework for Application with high complexity
+
+Database
+
+MongoDB (Cloud Function : Atlas)
+
+It's Database type NoSQL for collect data JSON with high flexibility and easy to scaling
+
+AUTHOR: frank, PUBLISH: 2/16/2022, 8:29:57 AM
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
