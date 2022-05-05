@@ -37,7 +37,14 @@ It's Database type NoSQL for collect data JSON with high flexibility and easy to
 
 AUTHOR: frank, PUBLISH: 2/16/2022, 8:29:57 AM
 
-
+body {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    color: var(--fg0);
+    background-color: var(--bg1);
+    line-height: 1.5;
+    font-size: 16px;
+}
 
 
 
